@@ -24,18 +24,17 @@ Com uma interface minimalista e intuitiva, ele ajuda o usuário a perceber momen
 <img src="app/src/main/res/assets/doc/monitor.png" alt="Monitoramento Normal" width="200"/>
 
 ### Monitoramento Cardíaco – Elevado
-Após voltar do exercício de respiração, o app exibe a frequência cardíaca em vermelho (caso ainda estiver elevado), indicando que o usuário deve prestar atenção.
-![Monitoramento Elevado](app/src/main/res/assets/doc/monitor2.png)
+- Após voltar do exercício de respiração, o app exibe a frequência cardíaca em vermelho (caso ainda estiver elevado), indicando que o usuário deve prestar atenção.
+<img src="app/src/main/res/assets/doc/monitor2.png" alt="Monitoramento Elevado" width="200"/>
 
 ### Alerta de Estresse
-O app detecta uma frequência elevada e sugere uma pausa para respiração consciente.
-![Alerta de Estresse](app/src/main/res/assets/doc/alert.png)
+- O app detecta uma frequência elevada e sugere uma pausa para respiração consciente.
+<img src="app/src/main/res/assets/doc/alert.png" alt="Alerta de Estresse" width="200"/>
 
 ### Exercício de Respiração
-O usuário é guiado por 30 segundos de respiração calma para reduzir os níveis de ansiedade.
-![Exercício de Respiração](app/src/main/res/assets/doc/breathing.png)
+- O usuário é guiado por 30 segundos de respiração calma para reduzir os níveis de ansiedade.
+<img src="app/src/main/res/assets/doc/breathing.png" alt="Exercício de Respiração" width="200"/>
 
 ### Feedback Positivo
-Ao finalizar o exercício, o app parabeniza o usuário, reforçando o autocuidado.
-![Feedback Positivo](app/src/main/res/assets/doc/feedback.png)
-
+- Ao finalizar o exercício, o app parabeniza o usuário, reforçando o autocuidado.
+<img src="app/src/main/res/assets/doc/feedback.png" alt="Feedback" width="200"/>
