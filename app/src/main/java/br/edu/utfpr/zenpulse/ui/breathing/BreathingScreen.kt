@@ -2,12 +2,9 @@ package br.edu.utfpr.zenpulse.ui.breathing
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
-import androidx.wear.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -19,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.wear.compose.material.Text
 import androidx.wear.tooling.preview.devices.WearDevices
 import br.edu.utfpr.zenpulse.ui.animations.BreathingAnimation
 import kotlinx.coroutines.delay
@@ -27,7 +25,7 @@ import kotlinx.coroutines.delay
 fun BreathingScreen(
     onFinish: () -> Unit
 ) {
-    var timeLeft by remember { mutableIntStateOf(15) }
+    var timeLeft by remember { mutableIntStateOf(30) }
 
     LaunchedEffect(Unit) {
         while (timeLeft > 0) {
