@@ -20,8 +20,8 @@ Com uma interface minimalista e intuitiva, ele ajuda o usuário a perceber momen
 
 ## 📸 Capturas de Tela
 ### Monitoramento Cardíaco – Normal
-Quando a frequência cardíaca está em níveis normais, a borda é exibida em verde e é apresentado o batimento atual.
-![Monitoramento Normal](app/src/main/res/assets/doc/monitor.png)
+- Quando a frequência cardíaca está em níveis normais, a borda é exibida em verde e é apresentado o batimento atual.
+<img src="app/src/main/res/assets/doc/monitor.png" alt="Monitoramento Normal" width="200"/>
 
 ### Monitoramento Cardíaco – Elevado
 Após voltar do exercício de respiração, o app exibe a frequência cardíaca em vermelho (caso ainda estiver elevado), indicando que o usuário deve prestar atenção.
